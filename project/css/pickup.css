@@ -1,0 +1,114 @@
+
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.schedule-pickup {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(201, 201, 214, 0.7);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.schedule-pickup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.schedule-pickup p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.schedule-pickup form {
+    margin-top: 20px;
+}
+
+.schedule-pickup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.schedule-pickup input[type="text"],
+.schedule-pickup input[type="email"],
+.schedule-pickup input[type="tel"],
+.schedule-pickup input[type="date"],
+.schedule-pickup input[type="time"],
+.schedule-pickup select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.schedule-pickup button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.schedule-pickup button:hover {
+    background-color: #555;
+}
+
+
+.mobile-input {
+    display: flex;
+    align-items: center;
+}
+
+#country-code {
+    flex: 1;
+    margin-right: 10px;
+}
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    overflow: hidden; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(79, 78, 123, 0.7);
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(35, 39, 86, 0.1);
+    text-align: right;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
